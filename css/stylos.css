@@ -42,19 +42,46 @@
 }
 
 body {
-  font-family: Roboto;
-  color: #434455;
+  font-family: Roboto, sans-serif;
+  font-weight: regular;
+  size: 16px;
+  height: 24px;
+  letter-spacing: 2;
+  display: contents;
 }
 
-header {
-  width: 1440px;
-  height: 72px;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
 
+.top-line {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.address-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 .logo-web {
-  font-family: "Raleway",
-    sans-serif;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
 
@@ -65,22 +92,8 @@ header {
   color: #4d5ae5;
 }
 
-.header-studio {
-  font-family: "Raleway",
-    sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-
-  /* line-height: 21px; */
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.logo-studio {
   color: #2e2f42;
-}
-
-.header-nav {
-  width: 261px;
-  height: 24px;
 }
 
 .header-nav-item {
@@ -94,65 +107,9 @@ header {
   color: #2e2f42;
 }
 
-#contacts {
-  /* line-height: 24px; */
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.background-button {
-  width: 1440px;
-  height: 600px;
-  background: #2e2f42;
-
-}
-
-.button-order {
-  cursor: pointer;
+.address-style-email,
+.address-style-tel {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
-
-  /* line-height: 24px; */
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: #fff;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-}
-
-.text-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 56px;
-
-  /* line-height: 60px; */
-  line-height: 107%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
-
-.benefits>h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-
-  /* line-height: 24px; */
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.benefit>p {
-  font-family: "Roboto",
-    sans-serif;
   font-weight: 400;
   font-size: 16px;
 
@@ -160,33 +117,4 @@ header {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.present-photo {
-  width: 1440px;
-  height: 732px;
-  background: #f4f4fd;
-}
-
-.our-team-foto {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-
-  /* line-height: 40px; */
-  line-height: 111%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-
-.foto-box {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-  text-align: center;
-
 }
