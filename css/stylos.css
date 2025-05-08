@@ -63,10 +63,10 @@ body {
 
 .logo-web {
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -91,44 +91,60 @@ body {
   text-decoration: none;
 }
 
-.header-nav-item-studio {
-  font-family: "Roboto", sans-serif;
+.header-nav-item {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
 
-.header-nav-item-studio:hover {
+.header-nav-item:hover {
   color: #404bbf;
   text-decoration: none;
 }
 
-.header-nav-item-studio:active {
+.header-nav-item:active {
   text-decoration: underline;
   color: #404bbf;
 }
 
-.address-style-email,
-.address-style-tel {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+.contacts {
+  font-style: normal;
+}
+
+.contacts-email {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
 }
 
-.address-style-email:hover {
+.contacts-email:hover {
   color: #404bbf;
 }
 
-.address-style-tel:hover {
+.contacts-email:active {
   color: #404bbf;
 }
+
+.contacts-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts-tel:hover {
+  color: #404bbf;
+}
+
+.contacts-tel:active {
+  color: #404bbf;
+}
+
 
 /* Налаштування заголовка Н1 та кнопки */
 .section-text-button {
