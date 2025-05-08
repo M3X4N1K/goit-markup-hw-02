@@ -10,8 +10,7 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
 }
 
 .raleway-<uniquifier> {
@@ -273,7 +272,7 @@ body {
 
 .portfolio-text-foto {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 
   /* line-height: 24px; */
