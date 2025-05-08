@@ -220,7 +220,6 @@ body {
   gap: 24px;
   list-style: none;
   padding: 0;
-  margin: 0;
   justify-content: center;
 }
 
@@ -231,24 +230,34 @@ body {
 }
 
 .benefit-item h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 20px;
-  margin: 0 0 8px 0;
+
+  /* line-height: 24px; */
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .benefit-item p {
-  font-size: 14px;
-  margin: 0;
-  line-height: 1.4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
-/* Налаштування портфоліо */
+/* Налаштування фото */
 
 .present-photo {
   width: 1440px;
   height: 732px;
   background: #f4f4fd;
   padding: 60px 0;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -270,12 +279,16 @@ body {
 }
 
 .team-member {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
   width: 264px;
-  background-color: #ffffff;
-  border-radius: 8px;
+  height: 380px;
   overflow: hidden;
   padding-bottom: 32px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 .team-member img {
@@ -299,6 +312,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Налаштування портфоліо */
+
 .portfolio-section {
   width: 1440px;
   height: 1240px;
@@ -319,11 +334,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
+
+  /* line-height: 40px; */
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -343,18 +359,25 @@ body {
 
 .portfolio-item h3 {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 20px;
-  font-weight: 600;
+
+  /* line-height: 24px; */
+  line-height: 120%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 8px 0 4px;
   text-align: left;
 }
 
 .portfolio-item p {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #434455;
-  margin: 0;
   text-align: left;
 }
 
@@ -417,4 +440,46 @@ body {
   color: #434455;
   margin: 0;
   text-align: left;
+}
+
+/* Футер */
+.end-page {
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
+}
+
+.end-page .logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.end-page .logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.end-page p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
