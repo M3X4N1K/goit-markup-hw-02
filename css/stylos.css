@@ -46,43 +46,19 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: regular;
   size: 16px;
-  height: 24px;
   letter-spacing: 2;
-  display: contents;
-  width: 1440px;
-  background: #fff;
 
+  background: #fff;
+  color: #434455
 }
 
 /* Налаштування верхньої стрічки */
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px;
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.top-line {
-  display: flex;
-  align-items: center;
-  gap: 76px;
-}
-
 .nav-list {
-  display: flex;
   list-style: none;
-  gap: 40px;
-  padding: 0;
-  margin: 0;
 }
 
 .address-list {
-  display: flex;
   list-style: none;
-  gap: 40px;
-  padding: 0;
-  margin: 0;
 }
 
 .logo-web {
@@ -156,15 +132,9 @@ body {
 
 /* Налаштування заголовка Н1 та кнопки */
 .section-text-button {
-  width: 1440px;
-  height: 600px;
+
   background: #2e2f42;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  margin: 0 auto;
 }
 
 .prime-text {
@@ -174,23 +144,16 @@ body {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: #fff;
-  margin: 0 0 48px 0;
-  max-width: 1000px;
+
 }
 
 .prime-button {
-  width: 169px;
-  height: 56px;
-  padding: 16px 32px;
-  border: none;
-  border-radius: 4px;
   background: #4d5ae5;
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: background-color 0.3s ease;
+
 }
 
 .prime-button:hover {
@@ -200,32 +163,24 @@ body {
 /* Налаштування benefits */
 .benefits {
   background-color: #fff;
-  padding: 60px 0;
+
 }
 
 .benefits-container {
-  width: 1440px;
-  margin: 0 auto;
   text-align: center;
 }
 
 .benefits-title {
   font-size: 32px;
-  margin-bottom: 40px;
   color: #fff;
 }
 
 .benefits-list {
-  display: flex;
-  gap: 24px;
   list-style: none;
   padding: 0;
-  justify-content: center;
 }
 
 .benefit-item {
-  width: 264px;
-  height: 104px;
   text-align: left;
 }
 
@@ -254,10 +209,7 @@ body {
 /* Налаштування фото */
 
 .present-photo {
-  width: 1440px;
-  height: 732px;
   background: #f4f4fd;
-  padding: 60px 0;
   text-align: center;
 }
 
@@ -266,35 +218,15 @@ body {
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
-  margin-bottom: 72px;
+
 }
 
 .team-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  padding: 0;
-  margin: 0 auto;
   list-style: none;
 }
 
 .team-member {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  overflow: hidden;
-  padding-bottom: 32px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-}
-
-.team-member img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .team-member h3 {
@@ -302,31 +234,21 @@ body {
   font-weight: 600;
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
-  margin: 32px 0 8px;
 }
 
 .team-member p {
   font-size: 16px;
   color: #434455;
-  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
 /* Налаштування портфоліо */
 
 .portfolio-section {
-  width: 1440px;
-  height: 1240px;
   background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .portfolio-container {
-  width: 1128px;
-  height: 1000px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -343,18 +265,8 @@ body {
 }
 
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 48px 24px;
   /* 48px між рядками, 24px між колонками */
-  padding: 0;
-  margin: 0;
   list-style: none;
-  justify-content: center;
-}
-
-.portfolio-item {
-  width: 360px;
 }
 
 .portfolio-item h3 {
@@ -385,18 +297,11 @@ body {
 /* Налаштування портфоліо 2 секції */
 
 .portfolio-section {
-  width: 1440px;
-  height: 1240px;
   background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .portfolio-container {
-  width: 1128px;
-  height: 1000px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -404,48 +309,39 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
+  line-height: 1.11;
+  text-transform: capitalize
 }
 
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 48px 24px;
-  padding: 0;
-  margin: 0;
   list-style: none;
-  justify-content: center;
 }
 
-.portfolio-item {
-  width: 360px;
-}
 
-.portfolio-item h3 {
+.portfolio-title-foto {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: #2e2f42;
-  margin: 8px 0 4px;
   text-align: left;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.portfolio-item p {
+.portfolio-text-foto {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
-  margin: 0;
   text-align: left;
 }
 
 /* Футер */
 .end-page {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
 }
 
