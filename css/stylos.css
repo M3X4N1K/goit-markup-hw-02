@@ -89,6 +89,16 @@ body {
   text-decoration: none;
 }
 
+.item:active {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+
 .contacts-email {
   font-size: 16px;
   line-height: 1.5;
@@ -103,22 +113,6 @@ body {
 .contacts-email:active {
   color: #404bbf;
 }
-
-.contacts-tel {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.contacts-tel:hover {
-  color: #404bbf;
-}
-
-.contacts-tel:active {
-  color: #404bbf;
-}
-
 
 /* Налаштування заголовка Н1 та кнопки */
 .section-text-button {
