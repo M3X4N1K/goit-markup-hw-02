@@ -124,7 +124,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
 
@@ -155,43 +155,6 @@ body {
 
 }
 
-
-.benefits-title {
-  font-size: 32px;
-  color: #fff;
-}
-
-.benefits-list {
-  list-style: none;
-  padding: 0;
-}
-
-.benefit-item {
-  text-align: left;
-}
-
-.benefit-item h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-
-  /* line-height: 24px; */
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.benefit-item p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 /* Налаштування фото */
 
 .present-photo {
@@ -218,27 +181,10 @@ body {
   background: #fff;
 }
 
-.team-member h3 {
-  font-size: 20px;
-  font-weight: 600;
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
-}
-
-.team-member p {
-  font-size: 16px;
-  color: #434455;
-  font-family: "Roboto", sans-serif;
-}
-
 /* Налаштування портфоліо */
 
 .portfolio-section {
   background: #fff;
-}
-
-.portfolio-container {
-  text-align: center;
 }
 
 .portfolio-title {
@@ -247,7 +193,7 @@ body {
   font-size: 36px;
 
   /* line-height: 40px; */
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -282,53 +228,6 @@ body {
   text-align: left;
 }
 
-
-/* Налаштування портфоліо 2 секції */
-
-.portfolio-section {
-  background: #fff;
-
-}
-
-.portfolio-container {
-  text-align: center;
-}
-
-.portfolio-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  line-height: 1.11;
-  text-transform: capitalize
-}
-
-.portfolio-list {
-  list-style: none;
-}
-
-
-.portfolio-title-foto {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  color: #2e2f42;
-  text-align: left;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.portfolio-text-foto {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-align: left;
-}
-
 /* Футер */
 .end-page {
   background: #2e2f42;
@@ -340,7 +239,7 @@ body {
   font-size: 18px;
 
   /* line-height: 21px; */
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -352,7 +251,7 @@ body {
   font-size: 18px;
 
   /* line-height: 21px; */
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
@@ -364,7 +263,7 @@ body {
   font-size: 16px;
 
   /* line-height: 24px; */
-  line-height: 150%;
+  line-height: 1.50;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
