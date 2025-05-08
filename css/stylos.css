@@ -89,7 +89,7 @@ body {
   text-decoration: none;
 }
 
-.item:active {
+.item:focus {
   color: #404bbf;
   text-decoration: none;
 }
@@ -110,7 +110,7 @@ body {
   color: #404bbf;
 }
 
-.contacts-email:active {
+.contacts-email:focus {
   color: #404bbf;
 }
 
@@ -135,12 +135,18 @@ body {
   background: #4d5ae5;
   color: #ffffff;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 
 }
 
 .prime-button:hover {
+  background-color: #404bbf;
+}
+
+.prime-button:focus {
   background-color: #404bbf;
 }
 
@@ -150,9 +156,6 @@ body {
 
 }
 
-.benefits-container {
-  text-align: center;
-}
 
 .benefits-title {
   font-size: 32px;
@@ -202,6 +205,9 @@ body {
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 
 }
 
