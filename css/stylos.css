@@ -1,52 +1,7 @@
-.montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.roboto-<uniquifier> {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-
-}
-
-.raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-:root {
-  --font-family: "Roboto", sans-serif;
-  --second-family: "Raleway", sans-serif;
-}
-
-:root {
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --navy-blue: #2e2f42;
-  --green: #31d0aa;
-  --slate: #434455;
-  --light-slate: #8e8f99;
-  --cornflower: #e7e9fc;
-  --cloud: #f4f4fd;
-  --navy-blue-modal: rgba(46, 47, 66, 0.4);
-  --grey: rgba(46, 47, 66, 0.7);
-  --white: #fff;
-  --dairy: #fcfcfc;
-}
-
 /* Загальні налаштування */
 body {
-  font-family: Roboto, sans-serif;
-  font-weight: regular;
-  size: 16px;
-  letter-spacing: 2;
-
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   background: #fff;
   color: #434455
 }
@@ -68,6 +23,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
 .logo-span {
@@ -97,12 +53,18 @@ body {
   font-style: normal;
 }
 
+.contacts-list {
+  list-style: none;
+  text-decoration: none;
+}
+
 
 .contacts-email {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 
 .contacts-email:hover {
@@ -121,7 +83,7 @@ body {
 }
 
 .prime-text {
-  font-family: "Roboto", sans-serif;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -138,6 +100,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 
 }
 
@@ -155,6 +118,10 @@ body {
 
 }
 
+.benefits-list {
+  list-style: none;
+}
+
 /* Налаштування фото */
 
 .present-photo {
@@ -165,7 +132,7 @@ body {
 .our-team-title {
   font-size: 36px;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+
   color: #2e2f42;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -188,7 +155,7 @@ body {
 }
 
 .portfolio-title {
-  font-family: "Roboto", sans-serif;
+
   font-weight: 700;
   font-size: 36px;
 
@@ -206,7 +173,7 @@ body {
 }
 
 .portfolio-title-foto {
-  font-family: "Roboto", sans-serif;
+
   font-weight: 500;
   font-size: 20px;
 
@@ -218,7 +185,7 @@ body {
 }
 
 .portfolio-text-foto {
-  font-family: "Roboto", sans-serif;
+
   font-weight: 500;
   font-size: 16px;
 
@@ -235,7 +202,7 @@ body {
 }
 
 .end-page .logo-web {
-  font-family: "Raleway", sans-serif;
+
   font-weight: 700;
   font-size: 18px;
 
@@ -244,10 +211,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
 .end-page .logo-studio {
-  font-family: "Raleway", sans-serif;
+
   font-weight: 700;
   font-size: 18px;
 
@@ -259,7 +227,7 @@ body {
 }
 
 .end-page p {
-  font-family: "Roboto", sans-serif;
+
   font-weight: 400;
   font-size: 16px;
 
